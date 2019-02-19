@@ -216,20 +216,20 @@
                         <p class="text-muted">Personal Project</p>
                     </div>
                 </div>
-                <!--<div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                <i class="fa fa-check fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/deltaDraw_cover.png" width="360" height = "270" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>deltaDraw</h4>
+                        <p class="text-muted">DeltaHacks V</p>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>
@@ -763,11 +763,21 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <h2>deltaDraw</h2>
+                                <p class="item-intro text-muted">Major League Hackathon</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/deltaDraw_vid.gif" alt="">
+                                
+                                <p><strong>Accomplishments:</strong></p>
+                                <li>Designed a website which can import an <strong>.jpg</strong> image</li>
+                                <li>Set up a server (integation of Flask and ngrok) for images to be uploaded though the deltaDraw website and later exported to a host computer</li>
+                                <li>Convert images to etch sketch layout as well as extracting coordinates using image processing libraries</li>
+                                <li>Mechanizing motors which holds a marker through Arduino after image has been processed</li>
+                                <li>All done within the time span of 24 hours</li>
+                                <p></p>
+                               
+                                <p><strong>Description</strong></p>
+                                <p>Ever wonder what it would be like to have new drawings and/or artworks on your canvas every morning? Well, what if I told you our machine has the capability to draw any “.JPG” image you can import from google. One can import images through our website hosted on a local server. This tunneling system of transferring images from one laptop to a host laptop which processes the image is created using Flask and ngrok. Once the image the user wants to draw has been processed – converting it to etch sketch layout and extracting all of the coordinates – a file containing the coordinates is passed onto the Arduino. Next, the Arduino creates a set of instruction for the step motors, each mounted on the top two corners of the whiteboard. And voila, an etch sketch image is printed.</p>
+                                                             
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
